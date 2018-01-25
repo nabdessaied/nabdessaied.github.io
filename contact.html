@@ -85,7 +85,8 @@
 			<div class="container">
 				<!-- start row -->
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-lg-6">
+					<div class="col-xs-12 col-sm-12 col-lg-1"></div>
+					<div class="col-xs-12 col-sm-12 col-lg-10">
 						<h3 class="title title-contact">Contact information</h3>
 						<br>
 						<div class="block-grey">
@@ -128,81 +129,7 @@
 						<br>
 						<br>
 						<br>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-lg-6">
-						<h3 class="title title-contact">
-							<br>
-						</h3>
-						</div>
-						<!-- Start Contact Form -->
-						<div class="contact-form text-center">
-							<!-- start container -->
-							<div class="container">
-								<!-- start row -->
-								<div class="row">
-									<div class="col-xs-12 col-sm-12 col-lg-6">
-										<br>
-										<script
-											src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBp62RsCtNM8-VydJm987lp952LwJn-naI'></script>
-										<div style='overflow: hidden; height: 300px; width: 550px;'>
-											<div id='gmap_canvas' style='height: 300px; width: 550px;'></div>
-											<div>
-												<small><a href="http://embedgooglemaps.com">
-														embed google maps </a></small>
-											</div>
-											<div>
-												<small><a href="https://privacypolicytemplate.net">privacy
-														policy template</a></small>
-											</div>
-
-										</div>
-										<script type='text/javascript'>
-											function init_map() {
-												var myOptions = {
-													zoom : 11,
-													center : new google.maps.LatLng(
-															48.09672049919599,
-															11.657729289843703),
-													mapTypeId : google.maps.MapTypeId.ROADMAP
-												};
-												map = new google.maps.Map(
-														document
-																.getElementById('gmap_canvas'),
-														myOptions);
-												marker = new google.maps.Marker(
-														{
-															map : map,
-															position : new google.maps.LatLng(
-																	48.09672049919599,
-																	11.657729289843703)
-														});
-												infowindow = new google.maps.InfoWindow(
-														{
-															content : '<strong>Infineon Technologies AG</strong><br>Am Campeon 1-12, 85579 Neubiberg<br>'
-														});
-												google.maps.event
-														.addListener(
-																marker,
-																'click',
-																function() {
-																	infowindow
-																			.open(
-																					map,
-																					marker);
-																});
-												infowindow.open(map, marker);
-											}
-											google.maps.event.addDomListener(
-													window, 'load', init_map);
-										</script>
-									</div>
-								</div>
-							</div>
-						</div>					
-					<br>
-							
-					<!-- end row -->
-				</div>
+					</div>					
 
 			</div>
 		</section>
